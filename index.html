@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home" class="home">
+        <h1>Jewelry Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- This is the home page -->
+        <h2>Home</h2>
+        <div class="home-area">
+            <!-- This is where all the introduction will happen -->
+            <br>
+            <br>
+            <p class="intro">
+                <b>Welcome to the BLING THING !</b>
+                <br>
+                At our jewelry store, every piece tells a story—crafted with passion, precision, and timeless sparkle. Whether you’re celebrating milestones or indulging in everyday luxury, our collection is designed to complement your style with grace.
+                Explore handpicked gemstones, elegant designs, and treasures that shine as brightly as you do.
+                <br>
+                <b><i>Let your style sparkle—because every moment deserves elegance.</i></b>
+            </p>
+        </div>
+    </header>
+    <br>
+    <br>
+    <hr/>
+    <br>
+    <br>
+    <div class="cart-icon">
+        🛒 <span class="cart-count">0</span>
+    </div>
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/1.jpeg" alt="Jewelry Item 1">
+                </div>
+                <h3 class="product-name">Product1</h3>
+                <p class="product-price">₹1000</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/2.jpeg" alt="Jewelry Item 2">
+                </div>
+                <h3 class="product-name">Product2</h3>
+                <p class="product-price">₹1100</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/3.jpeg" alt="Jewelry Item 3">
+                </div>
+                <h3 class="product-name">Product3</h3>
+                <p class="product-price">₹1200</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="product-list">
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/4.jpeg" alt="Jewelry Item 4">
+                </div>
+                <h3 class="product-name">Product4</h3>
+                <p class="product-price">₹1030</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/5.jpeg" alt="Jewelry Item 5">
+                </div>
+                <h3 class="product-name">Product5</h3>
+                <p class="product-price">₹1040</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/6.jpeg" alt="Jewelry Item 6">
+                </div>
+                <h3 class="product-name">Product6</h3>
+                <p class="product-price">₹1500</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="product-list">
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/7.jpeg" alt="Jewelry Item 7">
+                </div>
+                <h3 class="product-name">Product7</h3>
+                <p class="product-price">₹1060</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/8.jpeg" alt="Jewelry Item 8">
+                </div>
+                <h3 class="product-name">Product8</h3>
+                <p class="product-price">₹970</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="./images/9.jpeg" alt="Jewelry Item 9">
+                </div>
+                <h3 class="product-name">Product9</h3>
+                <p class="product-price">₹2000</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="cart-modal hidden">
+            <h2>Your Cart</h2>
+            <ul class="cart-items"></ul>
+            <button class="close-cart">Close Cart</button>
+        </div>
+    
+        <script src="script.js"></script>
+        
+    </section>
+    <br>
+    <br>
+    <hr/>
+    <br>
+    <br>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-intro">
+            Have questions or need help finding the perfect piece? We're here for you!
+        </p>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Jewelry Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
